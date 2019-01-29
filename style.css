@@ -1,0 +1,149 @@
+body{
+	/*font font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;*/
+	font: 15px/1.5 Bodoni;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+/* Global */
+	.container {
+		width: 80%;
+		margin: auto;
+		overflow: hidden;
+        font: 15px/1.5 Bodoni;
+        padding-bottom: 35;
+	}
+
+	ul{
+		margin:0;
+		padding: 0;
+	}
+
+/* Header */
+	header {
+		padding-top: 30px;
+		min-height: 70px;
+		border-bottom: #1E90FF 3px solid;
+		font-size: 40px;
+	}
+
+	header a{
+		color: #ffffff;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 16px; 
+		padding: 20px;
+	}
+
+	header li{
+		float: left;
+		display: inline;
+		padding: 0 20px 0 20px
+	}
+
+	header #branding {
+		float: left;
+	}
+
+	header #branding h1{
+        margin: 0;	
+    }
+
+	header nav{
+		float: right;
+		margin-top: 10px;
+	}
+
+	header .highlight, header .current a{
+		color: #1E90FF;
+		font-weight: bold;
+	}
+
+	header a:hover{
+		color: #cccccc
+		font-weight: bold;
+	}
+/*Showcase*/
+	#showcase{
+		min-height: 200px;
+		background: url('../img/showcase.jpg') no-repeat 0 -400px;
+		text-align: center;
+		color: #ffffff;
+	}
+
+	#showcase h1{
+		margin-top: 20px;
+		font-size: 55px;
+	}
+	#showcase p{
+		font-size: 20px;
+	}
+
+/* Image */
+
+    img{
+        transition: all 0.5s;
+        margin-top: 100;    
+    }
+
+    img:hover{
+        transform: scale(1.25);
+    }
+
+    footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #ffffff;
+            background-color: #1E90FF;
+            text-align: center;
+        }
+
+/* Email */
+    .email {
+        border-radius: 15px;
+        padding: 10px 18px;
+        font-size: 24px;
+
+    }
+/* Button */
+    .button {
+      display: inline-block;
+      padding: 15px 25px;
+      font-size: 24px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #1E90FF;
+      border: none;
+      border-radius: 15px;
+    }
+
+    .button:hover {background-color: #015EFE}
+
+    .button:active {
+      background-color: #1E90FF;
+      transform: translateY(4px);
+    }
+/* Boxes */
+
+    #boxes {
+            margin-top: 28px;
+            align-content: center;
+        }
+
+        #boxes .box {
+            float: left;
+            text-align: center;
+            width: 30%;
+            padding: 10px
+        }
+
+        #boxes .box img{
+            width: 90px;
+        }
+}
